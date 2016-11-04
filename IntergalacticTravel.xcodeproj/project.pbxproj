@@ -12,6 +12,7 @@
 		D7F407781DCB8B5B0047F32F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F407761DCB8B5B0047F32F /* Main.storyboard */; };
 		D7F4077A1DCB8B5B0047F32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F407791DCB8B5B0047F32F /* Assets.xcassets */; };
 		D7F4077D1DCB8B5B0047F32F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F4077B1DCB8B5B0047F32F /* LaunchScreen.storyboard */; };
+		D7F407851DCB93410047F32F /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F407841DCB93410047F32F /* StarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D7F407791DCB8B5B0047F32F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F4077C1DCB8B5B0047F32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F4077E1DCB8B5B0047F32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F407841DCB93410047F32F /* StarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D7F407721DCB8B5B0047F32F /* AppDelegate.swift */,
 				D7F407741DCB8B5B0047F32F /* ViewController.swift */,
 				D7F407761DCB8B5B0047F32F /* Main.storyboard */,
+				D7F407841DCB93410047F32F /* StarViewController.swift */,
 				D7F407791DCB8B5B0047F32F /* Assets.xcassets */,
 				D7F4077B1DCB8B5B0047F32F /* LaunchScreen.storyboard */,
 				D7F4077E1DCB8B5B0047F32F /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					D7F4076E1DCB8B5B0047F32F = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P7V5S7NK97;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7F407751DCB8B5B0047F32F /* ViewController.swift in Sources */,
+				D7F407851DCB93410047F32F /* StarViewController.swift in Sources */,
 				D7F407731DCB8B5B0047F32F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7V5S7NK97;
 				INFOPLIST_FILE = IntergalacticTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.617437.IntergalacticTravel;
@@ -272,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7V5S7NK97;
 				INFOPLIST_FILE = IntergalacticTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.617437.IntergalacticTravel;
