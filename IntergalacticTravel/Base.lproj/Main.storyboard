@@ -64,12 +64,24 @@
                     <view key="view" contentMode="scaleToFill" id="jDS-cN-Zcx">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VFv-iy-CQk"/>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="VFv-iy-CQk" secondAttribute="trailing" id="7q2-om-enr"/>
+                            <constraint firstItem="qcS-a8-OBA" firstAttribute="top" secondItem="VFv-iy-CQk" secondAttribute="bottom" id="Lqa-NQ-qAI"/>
+                            <constraint firstItem="VFv-iy-CQk" firstAttribute="leading" secondItem="jDS-cN-Zcx" secondAttribute="leading" id="YQY-E1-tGj"/>
+                            <constraint firstItem="VFv-iy-CQk" firstAttribute="top" secondItem="AeI-pC-1bR" secondAttribute="bottom" id="ekE-gX-i3L"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="starImageView" destination="VFv-iy-CQk" id="eEs-gh-Y7p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bN3-iX-YSz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2341" y="-7"/>
+            <point key="canvasLocation" x="2340.625" y="-7.0312499999999991"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UI5-k5-DBb">
